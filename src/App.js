@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css"
-import { useEffect } from "react";
+
 import { useState } from "react";
 import axios from "axios";
 
@@ -51,7 +51,7 @@ function App() {
         <div className="col-md-12 text-center mt-5">
 
           <div className="shadow rounded weatherResultBox">
-            <img className="weatherIcon" src="https://i.pinimg.com/564x/77/0b/80/770b805d5c99c7931366c2e84e88f251.jpg"/>
+            <img className="weatherIcon" src="https://i.pinimg.com/564x/77/0b/80/770b805d5c99c7931366c2e84e88f251.jpg" alt="img"/>
             <h5 className="weatherCity">
               {data?.name}
             </h5>
